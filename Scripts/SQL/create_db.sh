@@ -12,7 +12,7 @@ CREATE TABLE results (
 	pge FLOAT(24) NOT NULL, 
 	pge_CI CHAR(20) NOT NULL, 
 	en_r2 FLOAT(24),
-	PRIMARY KEY(gene,tissue)
+	PRIMARY KEY(ensid,tissue)
 	
 ); 
 EOF
