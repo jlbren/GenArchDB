@@ -1,0 +1,11 @@
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3149: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3151: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3607: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3609: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3950: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:3952: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:9053: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:9055: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:16821: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+/home/brenner/Desktop/GenArchDB/Scripts/SQL/GenArchTable-GenArchDB_Adipose-Subcutaneous_TS_exp_BSLMM-s100K_iterations_all_chr1-22_2015-08-06.txt:16823: INSERT failed: UNIQUE constraint failed: results.ensid, results.tissue
+
