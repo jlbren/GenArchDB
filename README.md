@@ -22,7 +22,7 @@ TABLE results (
 
 * Open the database in a sqlite shell with the command `sqlite3 genarch.db` 
 * Queries may be run in the shell using standard [sqlite syntax](https://sqlite.org/lang.html) following the above schema. 
-  * e.g. to select all information for a given a query would take the form `select * from results where gene = <mygene> ` 
+  * e.g. to select all information for a given gene a query would take the form: `select * from results where gene = <mygene> ` 
 
 * Several example queries and their results are demonstrated below: 
 ```SQL 
@@ -83,7 +83,7 @@ select count(gene) from results;
   
 
 ###Trouble Shooting
-* If a sqlite process is terminated unexpectedly, the datadabase may become locked and display the following message upon next attempted access: `Error: database is locked `. The corersponding process must therefore be properly terminated in order to execute subsequent queries. 
+* If a sqlite process is terminated unexpectedly, the datadabase may become locked and display the following message upon next attempted access: `Error: database is locked `. The corresponding process must therefore be properly terminated in order to execute subsequent queries. 
 	* From a unix commandline this may be accomplished using the following:
 		* ` fuser genarch.db ` (displays process IDs currently associated with genarch.db) 
 			* example result: `/genarch.db:  438 ` 
