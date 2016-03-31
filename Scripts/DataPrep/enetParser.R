@@ -1,5 +1,4 @@
 args<-commandArgs(trailingOnly=T)
-print(args)
 filenameIn<-as.character(args[1])
 data<-read.table(filenameIn, sep='\t', header=TRUE)
 dataOut<-data[-c(6,2,3,4,5,8)]

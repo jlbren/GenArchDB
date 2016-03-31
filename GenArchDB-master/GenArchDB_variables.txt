@@ -1,0 +1,13 @@
+gene	ensid	tissue	h2	h2_CI	pve	pve_CI	pge	pge_CI	en_R2
+
+
+## gene = Gene name
+## ensid = ensembl ID
+## tissue = tissue (TS=tissue-specific, TW=tissue-wide)
+## h2 = local h2 estimation (note tissues are across the columns in the GTEx h2 files)
+## h2_CI = 95% confidence interval for h2, ideally formatted as [0.34-0.56], calculate as [h2-se, h2+se]
+## pve = pve50 from BSLMM files
+## pve_CI = 95% credible interval for pve, [pve025-pve975] from BSLMM files
+## pge = pge50 from BSLMM files
+## pge_CI = 95% credible interval for pge, [pge025-pge975] from BSLMM files
+## en_R2 = R2 from the elasticNet_alpha0.5 files
