@@ -22,7 +22,7 @@ TABLE results (
 
 * Open the database in a sqlite shell with the command `sqlite3 genarch.db` 
 * Queries may be run in the shell using standard [sqlite syntax](https://sqlite.org/lang.html) following the above schema. 
-  * e.g. to select all information for a given a query would take the form `select * from results where gene = <mygene> ` 
+  * e.g. to select all information for a given gene a query would take the form: `select * from results where gene = <mygene> ` 
 
 * Several example queries and their results are demonstrated below: 
 ```SQL 
