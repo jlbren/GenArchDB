@@ -24,7 +24,7 @@ TABLE results (
 * Queries may be run in the shell using standard [sqlite syntax](https://sqlite.org/lang.html) following the above schema. 
   * e.g. to select all information for a given a query would take the form `select * from results where gene = <mygene> ` 
 
-*Several example queries and their results are demonstrated below: 
+* Several example queries and their results are demonstrated below: 
 ```SQL 
 select tissue,h2,h2_ci from results where gene = "ERAP2";
 ``` 
@@ -81,6 +81,16 @@ select count(gene) from results;
 ``` 
 > 334423  
   
+
+###Trouble Shooting
+* If a sqlite process is terminated unexpectedly, the datadabase may become locked and display the following message upon next attempted access: `Error: database is locked `. The corersponding process must therefore be properly terminated in order to execute subsequent queries. 
+	* From a unix commandline this may be accomplished using the following:
+		* ` fuser genarch.db ` (displays process IDs currently associated with genarch.db) 
+			* example result: `/genarch.db:  438 ` 
+		* ` sudo kill -9 <pid> ` (kill the associated process locking the database) 
+			* e.g. ` sudo kill -9 438 ` 
+			* example result: `[1]   Killed                  sqlite3 genarch.db  ` 
+ 
 
 
 
